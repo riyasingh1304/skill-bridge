@@ -1,0 +1,38 @@
+<!-- blog4.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Success Stories</title>
+  <style>
+    body { margin:0; font-family: Arial; background: #f4f6fa; color: #333; }
+    header { background: linear-gradient(to right, #4e9af1, #7c4dff); padding: 20px; color: white; text-align: center; }
+    .container { max-width: 900px; margin: 30px auto; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    h1 { color: #4e9af1; }
+    .story { margin-bottom: 20px; }
+    .back-btn { background: #4e9af1; color: white; padding: 10px 20px; border: none; border-radius: 20px; cursor: pointer; margin-top: 20px; }
+    .back-btn:hover { background: #3b82f6; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Student Success Stories</h1>
+    <p>Be inspired by real journeys of students who achieved their dreams.</p>
+  </header>
+  <div class="container">
+    <div class="story">
+      <b>Aman’s Story:</b> From a small town to an IIT graduate, Aman credits his success to focused mentorship and strategic preparation.
+    </div>
+    <div class="story">
+      <b>Riya’s Journey:</b> Unsure after 12th, Riya explored career options through counseling and now thrives as a software engineer.
+    </div>
+    <div class="story">
+      <b>Deepak’s Breakthrough:</b> Overcoming challenges, Deepak pursued pharmacy and now works with a top pharmaceutical firm.
+    </div>
+    <p>These stories show that with the right guidance, resources, and determination, every student can create their success story.</p>
+    <button class="back-btn" onclick="goBack()">← Back to Blogs</button>
+  </div>
+  <script> function goBack() { window.location.href = 'blogs.html'; } </script>
+</body>
+</html>
